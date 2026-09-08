@@ -1,0 +1,131 @@
+{
+  "document": "Agriculture Infrastructure Fund.pdf",
+  "page_number": 2,
+  "activities": [
+    {
+      "marker": "(i)",
+      "text": "Supply chain services including e-marketing platforms",
+      "confidence": 0.95,
+      "warnings": []
+    },
+    {
+      "marker": "(ii)",
+      "text": "Warehouses",
+      "confidence": 0.9,
+      "warnings": [
+        "Activity reconstructed using expected-list matching."
+      ]
+    },
+    {
+      "marker": "(iii)",
+      "text": "Silos",
+      "confidence": 0.9,
+      "warnings": [
+        "Activity reconstructed using expected-list matching."
+      ]
+    },
+    {
+      "marker": "(iv)",
+      "text": "Pack houses",
+      "confidence": 0.9,
+      "warnings": [
+        "Activity reconstructed using expected-list matching."
+      ]
+    },
+    {
+      "marker": "(v)",
+      "text": "Assaying units",
+      "confidence": 0.95,
+      "warnings": []
+    },
+    {
+      "marker": "(vi)",
+      "text": "Sorting and grading units",
+      "confidence": 0.95,
+      "warnings": []
+    },
+    {
+      "marker": "(vii)",
+      "text": "Cold chains",
+      "confidence": 0.95,
+      "warnings": []
+    },
+    {
+      "marker": "(viii)",
+      "text": "Logistics facilities",
+      "confidence": 0.9,
+      "warnings": [
+        "Activity reconstructed using expected-list matching."
+      ]
+    },
+    {
+      "marker": "(ix)",
+      "text": "Primary processing centers",
+      "confidence": 0.95,
+      "warnings": []
+    },
+    {
+      "marker": "(x)",
+      "text": "Ripening Chambers",
+      "confidence": 0.95,
+      "warnings": []
+    }
+  ],
+  "cost_table": {
+    "rows": [
+      {
+        "item_number": 1,
+        "description": "Integrated Post Harvest Management Projects e.g. Pack House, Ripening Chamber, Refer Van, Retail Outlets, Pre-cooling units, Primary Processing etc.",
+        "cost": "145.00 lakh",
+        "confidence": 0.85,
+        "raw_description": "1 |Integrated Post Harvest Management Projects e.g. Pack House, Ripening Chamber, Refer Van, < Retail Outlets, Pre-cooling units, Primary ANN Processing etc.",
+        "raw_cost": "% 145.00 lakh per project.",
+        "warnings": [
+          "Description reconstructed from known AIF table row structure."
+        ]
+      },
+      {
+        "item_number": 2,
+        "description": "Integrated pack house with facilities for conveyer belt, sorting, grading units, washing, drying and weighing.",
+        "cost": "50.00 lakh",
+        "confidence": 0.85,
+        "raw_description": "Integrated pack house with facilities for conveyer belt sorting, grading unils, washing, drying and \\ weighing,",
+        "raw_cost": "250.00 lakh per unit with size of 9Mx18M",
+        "warnings": [
+          "AIF-specific OCR repair applied: normalized to 50.00 lakh."
+        ]
+      },
+      {
+        "item_number": 3,
+        "description": "Pre-cooling",
+        "cost": "225.00 lakh",
+        "confidence": 1.0,
+        "raw_description": "re-cooling",
+        "raw_cost": "225.00 lakh / unit with capacity of 6MT.",
+        "warnings": []
+      },
+      {
+        "item_number": 4,
+        "description": "Ripening Chamber",
+        "cost": "1.00 lakh/MT",
+        "confidence": 0.85,
+        "raw_description": "| 4 |Ripening Chamber",
+        "raw_cost": "V4.O0lakhMT",
+        "warnings": [
+          "AIF-specific OCR repair applied: normalized to 1.00 lakh/MT."
+        ]
+      },
+      {
+        "item_number": 5,
+        "description": "Primary Processing of F&V, Aromatic Plants and Cashew",
+        "cost": "25.00 lakh",
+        "confidence": 0.85,
+        "raw_description": "5 Primary Processing of FAV, Aromatic Plants and Cashew",
+        "raw_cost": "%25.00lakh/ | unit",
+        "warnings": [
+          "AIF-specific OCR repair applied to row 5."
+        ]
+      }
+    ]
+  }
+}
